@@ -29,6 +29,9 @@ function startGame(){
     randomNumber = generateRandomNumber(19,120);
     totalScore = 0;
     pink = generateRandomNumber (1,12);
+    blue = generateRandomNumber(1,12);
+    yellow = generateRandomNumber(1,12);
+    green= generateRandomNumber(1,12);
     //set all crystals^
 }
 //add jq tag 
