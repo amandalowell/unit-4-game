@@ -57,5 +57,5 @@ $("greenCrystal").click(function(){
 // function start / restart game, all numbers set to 0, reset numbers
 //functions for when each crystal is cliked add "this " random numeber diff functions for each crystal
 //funtion to check if game is over 
-
+//function for if total score=random number, win ++, restart game
 //call start game after a win to restart game to get random number
