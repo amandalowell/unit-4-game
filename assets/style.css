@@ -1,0 +1,15 @@
+body {
+    
+    background: url("assets/images/back.jpeg");
+}
+
+h1 {
+    background-color: rgb(204, 99, 39);
+    color: white;
+}
+
+h2{
+    background-color: tan;
+    color: green; 
+}
+

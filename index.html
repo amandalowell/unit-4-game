@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel= "stylesheet" href="assets/style.css">
 </head>
 <body>
 
@@ -15,28 +16,67 @@
     div for random number
     div for wins and losses box
     div for your total score -->
-    
-        <div id="instructions"></div>
 
-        <div id="randomNumber"></div>
+    <div class="container">
+        <div>
+            <h1>CrystalsCollector!</h1>
+
+            <h2>
+                <p>You will be given a random number at the start of the game.</p>
+
+                <p>There are four crystals below. By clicking on a crystal you
+                    will add a sepcific amount of points to your total score.
+                </p>
+
+                <p>You win the game by matching your total score to random
+                    number, you lose the game if your total score goes above the 
+                    random number.
+                </p>
+
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+
+                <p>Each time when the game starts, the game will change the values of
+                    each crystal.
+                </p>
+
+            </h2>
+
+        </div>
     
         
-        <div>
-            <div id="#pinkCrystal"></div>
-            <div id="#blueCrystal"></div>
-            <div id="#yellowCrystal"> </div>
-            <div id="greenCrystal"></div>
+
+    
+    
+        
+        <div class= "gems">
+            <div id="#pinkCrystal"> <img src="assets/images/pink.jpeg"></div>
+            <div id="#blueCrystal"> <img src="assets/images/blue.jpeg"></div>
+            <div id="#yellowCrystal"> <img src="assets/images/yellow.jpeg"></div>
+            <div id="greenCrystal"> <img src="assets/images/green.jpeg"></div>
         </div>
 
 
         <div>
-            <div id="wins"></div>
-            <div id="losses"></div>
+
+            
+            <div id="instructions"></div>
+
+
+            <div id="score">
+                <p>wins:</p>
+                <p>losses:</p>
+            </div>
+            
+            <div id="score"> Your Total Score Is:</div> 
             <div id="total score"></div>
+
         </div>
 
 
 
+
+
+    </container>
 
     <!--give image tag for pink crystal the ID #pinkCrystal-->
 
