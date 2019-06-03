@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-    background-color: rgb(204, 99, 39);
+    background-color: rgb(202, 112, 62);
     color: white;
     width:25%;
     padding: 15px;
@@ -18,6 +18,22 @@ h2{
     width:70%;
 }
 
-.row {
-    float: row;
+#randomNumber {
+    background-color: rgb(88, 200, 137);
+    
+
+}
+
+#score { 
+    background-color: rgb(73, 254, 252);
+}
+
+#total {
+    background-color: rgb(41, 162, 151);
+    margin-bottom: 5px;
+}
+
+#totalScore {
+    background-color: rgb(41, 162, 151);
+
 }
