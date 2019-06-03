@@ -1,15 +1,23 @@
 body {
     
-    background: url("assets/images/back.jpeg");
+    background: url("images/bluebackground.jpeg");
+    
 }
 
 h1 {
     background-color: rgb(204, 99, 39);
     color: white;
+    width:25%;
+    padding: 15px;
+    height: 40px;
 }
 
 h2{
     background-color: tan;
     color: green; 
+    width:70%;
 }
 
+.row {
+    float: row;
+}
