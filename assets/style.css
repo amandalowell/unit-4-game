@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-    background-color: rgb(202, 112, 62);
+    background-color: rgb(224, 85, 150);
     color: white;
     width:25%;
     padding: 15px;
@@ -13,7 +13,7 @@ h1 {
 }
 
 h2{
-    background-color: tan;
+    background-color: rgb(191, 210, 140);
     color: green; 
     width:60%;
 }
@@ -31,13 +31,38 @@ h2{
 #total {
     background-color: rgb(41, 162, 151);
     margin-bottom: 5px;
+    font-size: 20px;
+    width: 40%;
+    
 }
 
 #totalScore {
     background-color: rgb(41, 162, 151);
-
+    size: 20px;
+    width: 40%;
 }
 
 .crystals {
     display: inline;
+}
+
+.game {
+    background-color:  rgb(191, 210, 140);
+    color: black;
+    font-size: 24px;
+    width: 40%;
+}
+
+.wins {
+    font-size: 20px;
+    width: 40%;
+}
+
+.losses {
+    font-size:20px;
+    width: 40%;
+}
+
+#score {
+    width: 20%;
 }
